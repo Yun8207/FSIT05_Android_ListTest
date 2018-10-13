@@ -16,12 +16,14 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="test1"/>
+            android:text="test1"
+            android:onClick="addItem"/>
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="test1"/>
+            android:text="test1"
+            android:onClick="deleteItem"/>
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
